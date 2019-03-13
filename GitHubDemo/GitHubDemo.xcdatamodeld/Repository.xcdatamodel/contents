@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GitRepo" representedClassName="GitRepo" syncable="YES" codeGenerationType="class">
+        <attribute name="gitRepoID" optional="YES" attributeType="Integer 64" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="full_name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="stars" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="stargazers_count"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <elements>
+        <element name="GitRepo" positionX="-54" positionY="27" width="128" height="90"/>
+    </elements>
+</model>
